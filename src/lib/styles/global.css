@@ -28,7 +28,7 @@ section {
 }
 
 p {
-    max-width: 65ch;
+    max-width: 80ch;
     line-height: 1.6;
     font-size: var(--step-0);
     font-weight: 400;

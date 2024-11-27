@@ -20,6 +20,7 @@
 		width: 100%;
 		margin-bottom: var(--space-xl);
 		position: relative;
+		padding-block: var(--space-m);
 	}
 
 	.hero::before {

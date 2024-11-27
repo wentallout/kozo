@@ -1,0 +1,23 @@
+:root 
+{
+    --site-width: 64rem; 
+    --site-margin: 1.5rem; 
+    --container-main: calc(min(100%,var(--site-width)) - var(--site-margin)*2);
+    --container-full: calc(100% - var(--site-margin)*2);
+}
+
+.u-container 
+{
+    max-width: var(--container-main);
+    margin-inline: auto;
+    width: 100%;
+}
+
+.u-container--full 
+{
+    max-width: var(--container-full);
+    margin-inline: auto;
+    width: 100%;
+    
+}
+

@@ -4,5 +4,47 @@
 @import url(color.css);
 @import url(utils.css);
 
+a {
+    text-decoration: underline;
+    color: var(--accent-500)
+}
 
+h2 {
+    font-size: var(--step-4);
+    font-weight: 500;
+    margin-bottom: var(--space-m);
+}
 
+h3 
+{
+    font-size: var(--step-4);
+    font-weight: 400;
+    margin-bottom: var(--space-s);
+}
+
+section {
+    margin-bottom: var(--space-3xl);
+    min-height: 30dvh;
+}
+
+p {
+    max-width: 65ch;
+    line-height: 1.6;
+    font-size: var(--step-0);
+    font-weight: 400;
+}
+
+.demo 
+{
+    border: 1px solid var(--background-200);
+	padding: var(--space-s);
+    overflow-x:auto;
+   
+}
+
+.nowrap 
+{
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}

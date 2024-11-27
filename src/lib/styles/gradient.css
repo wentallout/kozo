@@ -1,0 +1,9 @@
+:root 
+{
+	--linearPrimarySecondary: linear-gradient(hsl(78, 62%, 45%), hsl(36, 47%, 31%));
+	--linearPrimaryAccent: linear-gradient(hsl(78, 62%, 45%), hsl(52, 46%, 56%));
+	--linearSecondaryAccent: linear-gradient(hsl(36, 47%, 31%), hsl(52, 46%, 56%));
+	--radialPrimarySecondary: radial-gradient(hsl(78, 62%, 45%), hsl(36, 47%, 31%));
+	--radialPrimaryAccent: radial-gradient(hsl(78, 62%, 45%), hsl(52, 46%, 56%));
+	--radialSecondaryAccent: radial-gradient(hsl(36, 47%, 31%), hsl(52, 46%, 56%));
+}

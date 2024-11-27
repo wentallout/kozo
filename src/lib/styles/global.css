@@ -3,48 +3,51 @@
 @import url(spacing.css);
 @import url(color.css);
 @import url(utils.css);
+@import url(gradient.css);
+
+body {
+	background-color: var(--background-50);
+	color: var(--text-900);
+	font-family: 'Rubik Variable', sans-serif;
+}
 
 a {
-    text-decoration: underline;
-    color: var(--accent-500)
+	text-decoration: underline;
+	color: var(--accent-500);
 }
 
 h2 {
-    font-size: var(--step-4);
-    font-weight: 500;
-    margin-bottom: var(--space-m);
+	font-size: var(--step-4);
+	font-weight: 500;
+	margin-bottom: var(--space-m);
 }
 
-h3 
-{
-    font-size: var(--step-4);
-    font-weight: 400;
-    margin-bottom: var(--space-s);
+h3 {
+	font-size: var(--step-4);
+	font-weight: 400;
+	margin-bottom: var(--space-s);
 }
 
 section {
-    margin-bottom: var(--space-3xl);
-    min-height: 30dvh;
+	margin-bottom: var(--space-3xl);
+	min-height: 30dvh;
 }
 
 p {
-    max-width: 80ch;
-    line-height: 1.6;
-    font-size: var(--step-0);
-    font-weight: 400;
+	max-width: 80ch;
+	line-height: 1.6;
+	font-size: var(--step-0);
+	font-weight: 400;
 }
 
-.demo 
-{
-    border: 1px solid var(--background-200);
+.demo {
+	border: 1px solid var(--background-200);
 	padding: var(--space-s);
-    overflow-x:auto;
-   
+	overflow-x: auto;
 }
 
-.nowrap 
-{
-    white-space: nowrap;
-  overflow: hidden;
-  text-overflow: clip;
+.nowrap {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: clip;
 }

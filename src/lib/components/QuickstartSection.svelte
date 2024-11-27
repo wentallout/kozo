@@ -1,5 +1,7 @@
 <script>
 	import SectionTitle from '$lib/components/SectionTitle.svelte';
+
+	let modules = ['reset.css', 'typography.css', 'spacing.css', 'color.css', 'gradient.css'];
 </script>
 
 <section class="u-container">
@@ -7,22 +9,12 @@
 	<p>Begin by copying these foundation that will help you build your design system.</p>
 
 	<ul class="card">
-		<li class="card__item">
-			<a href="https://github.com/wentallout/kozo/blob/master/src/lib/styles/reset.css"
-				>reset.css</a>
-		</li>
-		<li class="card__item">
-			<a href="https://github.com/wentallout/kozo/blob/master/src/lib/styles/typography.css"
-				>typography.css</a>
-		</li>
-		<li class="card__item">
-			<a href="https://github.com/wentallout/kozo/blob/master/src/lib/styles/spacing.css"
-				>spacing.css</a>
-		</li>
-		<li class="card__item">
-			<a href="https://github.com/wentallout/kozo/blob/master/src/lib/styles/color.css"
-				>color.css</a>
-		</li>
+		{#each modules as module}
+			<li class="card__item">
+				<a href="https://github.com/wentallout/kozo/blob/master/src/lib/styles/{module}"
+					>{module}</a>
+			</li>
+		{/each}
 	</ul>
 </section>
 

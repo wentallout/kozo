@@ -1,7 +1,14 @@
 <script>
 	import SectionTitle from '$lib/components/SectionTitle.svelte';
 
-	let modules = ['reset.css', 'typography.css', 'spacing.css', 'color.css', 'gradient.css'];
+	let modules = [
+		'reset.css',
+		'typography.css',
+		'spacing.css',
+		'color.css',
+		'gradient.css',
+		'border-radius.css'
+	];
 </script>
 
 <section class="u-container">

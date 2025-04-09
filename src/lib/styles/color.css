@@ -1,136 +1,126 @@
 @media (prefers-color-scheme: light) {
 	:root {
-	  --text-50: hsl(340, 46%, 95%);
-	  --text-100: hsl(342, 45%, 90%);
-	  --text-200: hsl(342, 45%, 80%);
-	  --text-300: hsl(341, 46%, 70%);
-	  --text-400: hsl(341, 46%, 60%);
-	  --text-500: hsl(341, 46%, 50%);
-	  --text-600: hsl(341, 46%, 40%);
-	  --text-700: hsl(341, 46%, 30%);
-	  --text-800: hsl(342, 45%, 20%);
-	  --text-900: hsl(342, 45%, 10%);
-	  --text-950: hsl(340, 46%, 5%);
-  
-	  --background-50: hsl(340, 36%, 95%);
-	  --background-100: hsl(341, 37%, 90%);
-	  --background-200: hsl(339, 37%, 80%);
-	  --background-300: hsl(340, 37%, 70%);
-	  --background-400: hsl(340, 37%, 60%);
-	  --background-500: hsl(340, 37%, 50%);
-	  --background-600: hsl(340, 37%, 40%);
-	  --background-700: hsl(340, 37%, 30%);
-	  --background-800: hsl(339, 37%, 20%);
-	  --background-900: hsl(341, 37%, 10%);
-	  --background-950: hsl(340, 36%, 5%);
-  
-	  --primary-50: hsl(79, 62%, 95%);
-	  --primary-100: hsl(77, 61%, 90%);
-	  --primary-200: hsl(78, 63%, 80%);
-	  --primary-300: hsl(78, 62%, 70%);
-	  --primary-400: hsl(78, 62%, 60%);
-	  --primary-500: hsl(78, 62%, 50%);
-	  --primary-600: hsl(78, 62%, 40%);
-	  --primary-700: hsl(78, 62%, 30%);
-	  --primary-800: hsl(78, 63%, 20%);
-	  --primary-900: hsl(77, 61%, 10%);
-	  --primary-950: hsl(79, 62%, 5%);
-  
-	  --secondary-50: hsl(35, 46%, 95%);
-	  --secondary-100: hsl(37, 45%, 90%);
-	  --secondary-200: hsl(36, 47%, 80%);
-	  --secondary-300: hsl(36, 46%, 70%);
-	  --secondary-400: hsl(36, 47%, 60%);
-	  --secondary-500: hsl(36, 47%, 50%);
-	  --secondary-600: hsl(36, 47%, 40%);
-	  --secondary-700: hsl(36, 46%, 30%);
-	  --secondary-800: hsl(36, 47%, 20%);
-	  --secondary-900: hsl(37, 45%, 10%);
-	  --secondary-950: hsl(35, 46%, 5%);
-  
-	  --accent-50: hsl(55, 46%, 95%);
-	  --accent-100: hsl(52, 45%, 90%);
-	  --accent-200: hsl(52, 45%, 80%);
-	  --accent-300: hsl(52, 46%, 70%);
-	  --accent-400: hsl(52, 46%, 60%);
-	  --accent-500: hsl(52, 46%, 50%);
-	  --accent-600: hsl(52, 46%, 40%);
-	  --accent-700: hsl(52, 46%, 30%);
-	  --accent-800: hsl(52, 45%, 20%);
-	  --accent-900: hsl(52, 45%, 10%);
-	  --accent-950: hsl(50, 46%, 5%);
-  
-	}
-  }
-  @media (prefers-color-scheme: dark) {
-	:root {
-	  --text-50: hsl(340, 46%, 5%);
-	  --text-100: hsl(342, 45%, 10%);
-	  --text-200: hsl(342, 45%, 20%);
-	  --text-300: hsl(341, 46%, 30%);
-	  --text-400: hsl(341, 46%, 40%);
-	  --text-500: hsl(341, 46%, 50%);
-	  --text-600: hsl(341, 46%, 60%);
-	  --text-700: hsl(341, 46%, 70%);
-	  --text-800: hsl(342, 45%, 80%);
-	  --text-900: hsl(342, 45%, 90%);
-	  --text-950: hsl(340, 46%, 95%);
-  
-	  --background-50: hsl(342, 38%, 5%);
-	  --background-100: hsl(341, 37%, 10%);
-	  --background-200: hsl(339, 37%, 20%);
-	  --background-300: hsl(340, 39%, 30%);
-	  --background-400: hsl(340, 38%, 40%);
-	  --background-500: hsl(340, 38%, 50%);
-	  --background-600: hsl(340, 38%, 60%);
-	  --background-700: hsl(340, 39%, 70%);
-	  --background-800: hsl(339, 37%, 80%);
-	  --background-900: hsl(341, 37%, 90%);
-	  --background-950: hsl(336, 38%, 95%);
-  
-	  --primary-50: hsl(79, 62%, 5%);
-	  --primary-100: hsl(77, 61%, 10%);
-	  --primary-200: hsl(78, 63%, 20%);
-	  --primary-300: hsl(78, 62%, 30%);
-	  --primary-400: hsl(78, 62%, 40%);
-	  --primary-500: hsl(78, 62%, 50%);
-	  --primary-600: hsl(78, 62%, 60%);
-	  --primary-700: hsl(78, 62%, 70%);
-	  --primary-800: hsl(78, 63%, 80%);
-	  --primary-900: hsl(77, 61%, 90%);
-	  --primary-950: hsl(79, 62%, 95%);
-  
-	  --secondary-50: hsl(35, 46%, 5%);
-	  --secondary-100: hsl(37, 45%, 10%);
-	  --secondary-200: hsl(36, 47%, 20%);
-	  --secondary-300: hsl(36, 46%, 30%);
-	  --secondary-400: hsl(36, 47%, 40%);
-	  --secondary-500: hsl(36, 47%, 50%);
-	  --secondary-600: hsl(36, 47%, 60%);
-	  --secondary-700: hsl(36, 46%, 70%);
-	  --secondary-800: hsl(36, 47%, 80%);
-	  --secondary-900: hsl(37, 45%, 90%);
-	  --secondary-950: hsl(35, 46%, 95%);
-  
-	  --accent-50: hsl(50, 46%, 5%);
-	  --accent-100: hsl(52, 45%, 10%);
-	  --accent-200: hsl(52, 45%, 20%);
-	  --accent-300: hsl(52, 46%, 30%);
-	  --accent-400: hsl(52, 46%, 40%);
-	  --accent-500: hsl(52, 46%, 50%);
-	  --accent-600: hsl(52, 46%, 60%);
-	  --accent-700: hsl(52, 46%, 70%);
-	  --accent-800: hsl(52, 45%, 80%);
-	  --accent-900: hsl(52, 45%, 90%);
-	  --accent-950: hsl(55, 46%, 95%);
-  
-	}
-  }
+		--text-50: #fde7e7;
+		--text-100: #fbd0d0;
+		--text-200: #f8a0a0;
+		--text-300: #f47171;
+		--text-400: #f14141;
+		--text-500: #ed1212;
+		--text-600: #be0e0e;
+		--text-700: #8e0b0b;
+		--text-800: #5f0707;
+		--text-900: #2f0404;
+		--text-950: #180202;
 
-:root {
-	accent-color: var(--primary-500);
+		--background-50: #f2f2f2;
+		--background-100: #e6e6e6;
+		--background-200: #cccccc;
+		--background-300: #b3b3b3;
+		--background-400: #999999;
+		--background-500: #808080;
+		--background-600: #666666;
+		--background-700: #4d4d4d;
+		--background-800: #333333;
+		--background-900: #1a1a1a;
+		--background-950: #0d0d0d;
+
+		--primary-50: #f8fce8;
+		--primary-100: #f1fad1;
+		--primary-200: #e3f4a4;
+		--primary-300: #d5ef76;
+		--primary-400: #c7ea48;
+		--primary-500: #b9e41b;
+		--primary-600: #94b715;
+		--primary-700: #6f8910;
+		--primary-800: #4a5b0b;
+		--primary-900: #252e05;
+		--primary-950: #121703;
+
+		--secondary-50: #e7fdfd;
+		--secondary-100: #cffcfa;
+		--secondary-200: #a0f8f5;
+		--secondary-300: #70f5f1;
+		--secondary-400: #40f2ec;
+		--secondary-500: #11eee7;
+		--secondary-600: #0dbfb9;
+		--secondary-700: #0a8f8b;
+		--secondary-800: #075f5c;
+		--secondary-900: #03302e;
+		--secondary-950: #021817;
+
+		--accent-50: #e8e7fd;
+		--accent-100: #d1cffc;
+		--accent-200: #a49ff9;
+		--accent-300: #766ff6;
+		--accent-400: #483ff3;
+		--accent-500: #1b0ff0;
+		--accent-600: #150cc0;
+		--accent-700: #100990;
+		--accent-800: #0b0660;
+		--accent-900: #050330;
+		--accent-950: #030218;
+	}
 }
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text-50: #180202;
+		--text-100: #300303;
+		--text-200: #5f0707;
+		--text-300: #8f0a0a;
+		--text-400: #bf0d0d;
+		--text-500: #ee1111;
+		--text-600: #f24040;
+		--text-700: #f57070;
+		--text-800: #f8a0a0;
+		--text-900: #fccfcf;
+		--text-950: #fde7e7;
 
+		--background-50: #0d0d0d;
+		--background-100: #1a1a1a;
+		--background-200: #333333;
+		--background-300: #4d4d4d;
+		--background-400: #666666;
+		--background-500: #808080;
+		--background-600: #999999;
+		--background-700: #b3b3b3;
+		--background-800: #cccccc;
+		--background-900: #e6e6e6;
+		--background-950: #f2f2f2;
 
+		--primary-50: #121703;
+		--primary-100: #252e05;
+		--primary-200: #4a5b0b;
+		--primary-300: #6f8910;
+		--primary-400: #94b715;
+		--primary-500: #b9e41b;
+		--primary-600: #c7ea48;
+		--primary-700: #d5ef76;
+		--primary-800: #e3f4a4;
+		--primary-900: #f1fad1;
+		--primary-950: #f8fce8;
 
+		--secondary-50: #021817;
+		--secondary-100: #03302e;
+		--secondary-200: #075f5c;
+		--secondary-300: #0a8f8b;
+		--secondary-400: #0dbfb9;
+		--secondary-500: #11eee7;
+		--secondary-600: #40f2ec;
+		--secondary-700: #70f5f1;
+		--secondary-800: #a0f8f5;
+		--secondary-900: #cffcfa;
+		--secondary-950: #e7fdfd;
 
+		--accent-50: #030218;
+		--accent-100: #050330;
+		--accent-200: #0b0660;
+		--accent-300: #100990;
+		--accent-400: #150cc0;
+		--accent-500: #1b0ff0;
+		--accent-600: #483ff3;
+		--accent-700: #766ff6;
+		--accent-800: #a49ff9;
+		--accent-900: #d1cffc;
+		--accent-950: #e8e7fd;
+	}
+}
